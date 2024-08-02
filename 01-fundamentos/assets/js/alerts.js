@@ -1,14 +1,9 @@
-const myName = 'Benji';
+// alert('Hola mundo!');
 
-let saludoDia = `Hola ${myName} buenos dias!`;
+// let nombre = prompt('¿Cual es tu nombre?')
+// console.log('***' + nombre + '***'); //undefined | null | string
 
-function saludoNoche(name) {
-    const myName = 'Goku'
-    console.log(`myName en la fn() vale: ${myName}`);
-    let saludoDia = `Hola ${name} buenas noches!`;
-    return saludoDia;
-}
+/* let confirmacion = confirm('¿Estas seguro de borrar esto?')
+console.log(confirmacion); // true | false */
 
-console.log(`myName fuera de la fn() vale: ${myName}`);
-console.log(saludoDia);
-console.log(saludoNoche(myName));
+console.log(global); // global es como el window pero de node

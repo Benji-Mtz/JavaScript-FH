@@ -42,3 +42,11 @@ Hola Benji buenas noches!
 ```
 Asi limitamos los scopes de las variables en cada parte del programa o en algunos metodos o funciones para no sobreescribirlos.
 
+## Tipos de datos primitivos en JS
+
+- Boolean: true / false
+- Null: Sin valor en lo absoluto
+- Undefined: Una variable declarada que aún no se le asigna valor
+- Number: Enteros y flotantes
+- String: Cadenas de caracteres
+- Symbol: valor único que no es igual a ningún otro valor
